@@ -3838,10 +3838,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc6239d24717cae4cb3b07a132b424d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 1
+  fadeDuration: 2
   player: {fileID: 1125774296}
   exitBackgroundImageCanvasGroup: {fileID: 820856749}
-  displayImageDuration: 1
+  displayImageDuration: 2
 --- !u!65 &1620089854
 BoxCollider:
   m_ObjectHideFlags: 0
