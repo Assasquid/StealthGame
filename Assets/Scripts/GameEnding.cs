@@ -31,7 +31,7 @@ public class GameEnding : MonoBehaviour
     void EndLevel()
     {
         m_Timer += Time.deltaTime;
-        exitBackgroundImageCanvasGroup.alpha = m_Timer / fadeDuration;
+        exitBackgroundImageCanvasGroup.alpha = m_Timer;
 
         if (m_Timer > fadeDuration + displayImageDuration)
         {
